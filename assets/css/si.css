@@ -1,0 +1,112 @@
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(162, 255, 173);
+}
+
+header{
+    /*background-color: gold;*/
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 10px;
+    background-image: url('/assets/img/header1.jpg'); /* Nachher mit PHP random machen :D */
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.center{
+    text-align: center;
+    font-size: 1.25em;
+}
+
+content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex: 1 1 1 20% 60% 20%;
+    
+}
+
+.overview{
+    padding: 10px 2cqw;
+    background-color: rgb(255, 194, 194);
+}
+
+.shoes{
+    padding: 10px 30px;
+    background-color: rgb(198, 255, 198);
+    overflow: auto;
+    /*max-height: 700px;*/
+    max-height: 50em;
+}
+
+.shoe-row{
+    /*border-style: solid;*/
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 10px;
+    margin-bottom: 7px;
+    background-color: white;
+}
+
+.upgrade-row{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    padding: 10px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    background-color: rgba(2, 2, 255, 0.261);
+    color: white;
+}
+
+button{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.upgrades{
+    padding: 10px;
+    background-color: rgb(203, 203, 255);
+}
+
+ueberschrift{
+    font-weight: 700;
+}
+
+.income{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+td{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a, a:visited, a:hover{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+
+footer{
+    background-color: gold;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 10px;
+    font-size: smaller !important;
+}
